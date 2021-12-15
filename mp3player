@@ -45,7 +45,7 @@ GUICtrlSetOnEvent( $stop , "_Soundplay" )
 GUICtrlSetOnEvent( $nclose , "_nclose" )
 GUICtrlSetOnEvent( $setvol , "_SetVol" )
 GUICtrlSetOnEvent( $open , "_Open" )
-
+ 
 Func _VolApply
 	    SoundSetWaveVolume(GUICtrlRead( $volslider ) )
 	EndFunc

@@ -1,4 +1,5 @@
 #include <GUIConstants.au3>
+#include <Sound.au3>
 ; Project Name : MP3 Player 1.0
 ; Version : 1.0
 ; Author : ivan_ostric/i542
@@ -77,8 +78,8 @@ Func _nclose()
     GuiSetState(@SW_HIDE, $notes )
 EndFunc
 
-Func _Soundplay()
-    SoundPlay("")
+Func _Soundplay() ; Function Sound Play
+    SoundPlay("") ; Play the sound
 EndFunc
 
 FUnc _ExitHide()
